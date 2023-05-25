@@ -1,0 +1,28 @@
+@media screen and (min-width: 650px) {
+    .navbar-container {
+      grid-template-columns: 1fr auto;
+      padding: 8px 16px;
+    }
+    .menu-container {
+      display: none;
+    }
+    .navbar-title {
+        padding-left: 20px;
+    }
+    .drawer {
+      position: static;
+      width: 100%;
+    }
+   
+    .drawer ul li {
+      display: inline-block;
+    }
+   
+    .drawer ul li a {
+      display: inline-block;
+      width: 120px;
+      text-align: center;
+      margin: 0;
+      padding: 10px;
+    }
+}
