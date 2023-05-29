@@ -29,7 +29,6 @@
     }
 
 }
-
 @media screen and (max-width: 650px) {
       .card-container {
       grid-template-columns: repeat(2, 1fr);
@@ -42,7 +41,28 @@
       .card h4 {
       font-size: 2.5vh;
     }
+}
+@media screen and (max-width: 750px) {
+  .main-container {
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
   }
+  .container1 h2 {
+    text-align: center;
+  }
+  .container1 p {
+    text-align: center;
+  }
+  .start-learn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container2 {
+    order: -1;
+  }
+}
 @media screen and (max-width: 970px) {
   .container1 h2 {
     font-size: 36px;
