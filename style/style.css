@@ -147,7 +147,20 @@ body {
 .course-container {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .course-title {
     font-size: 32px;
+    margin: 3rem;
+}
+.line1 {
+    width: 360px;
+    height: 0px;
+    border: 1px solid #000000;
+}
+.line2 {
+    width: 360px;
+    height: 0px;
+    border: 1px solid #000000;
+
 }
