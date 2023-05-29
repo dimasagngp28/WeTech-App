@@ -12,15 +12,17 @@
     .drawer {
       position: static;
       width: 100%;
+      overflow: hidden;
     }
    
     .drawer ul li {
       display: inline-block;
+      padding: 0px;
     }
    
     .drawer ul li a {
       display: inline-block;
-      width: 120px;
+      width: 100px;
       text-align: center;
       margin: 0;
       padding: 10px;
@@ -41,3 +43,34 @@
       font-size: 2.5vh;
     }
   }
+@media screen and (max-width: 970px) {
+  .container1 h2 {
+    font-size: 36px;
+  }
+  .container1 p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .contact-card-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 0% 4%;
+  }
+}
+@media screen and (min-width: 1051px) and (max-width: 1150px) {
+  .contact-card-container {
+    gap: 4px;
+  }
+  .button-contact {
+    min-width: 70%;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .contact-card-container {
+    gap: 4px;
+  }
+  .button-contact {
+    min-width: 70%;
+  }
+}
