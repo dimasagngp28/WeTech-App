@@ -236,19 +236,20 @@ body {
   /* contact card start*/
 .contact-card-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  justify-content: space-around;
-  padding: 4% 10%;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 0% 4%;
 }
 .contact-card {
-  display: flex;
+    display: flex;
     flex-direction: column;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 4px;
     margin-bottom: 20px;
     border-radius: 16px;
+    border: 2px solid #D0386F;
 }
 .contact-header{
   display: flex;
@@ -286,7 +287,7 @@ body {
   padding: 12px;
 }
 .button-contact {
-    width: 40%;
+    width: 50%;
     display: inline-block;
     background-color: #D0386F;
     color: white;
