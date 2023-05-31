@@ -73,12 +73,16 @@ body {
 }
 .drawer ul li {
     font-weight: 500;
-  }
+}
 .drawer ul li a {
     display: inline-block;
     text-decoration: none;
     color: #ffecec;
     padding: 12px;
+}
+.drawer ul li a:hover {
+  color:#500a24;
+  font-weight: 700;
 }
 .main-container {
     display: flex;
@@ -124,8 +128,10 @@ body {
     margin-block-start: 1rem;
     cursor: pointer;
 }
+.start-learn:hover {
+  background-color: #82173e;
+}
 .container2 {
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -225,7 +231,7 @@ body {
 }
   
 .button:hover {
-    background-color: #d03870d2;
+    background-color: #82173e;
 }
 
 
@@ -296,6 +302,6 @@ body {
 }
   
 .button-contact:hover {
-    background-color: #d03870d2;
+    background-color: #82173e;
 }
 /* contact card end */

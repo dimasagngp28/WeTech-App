@@ -1,8 +1,21 @@
+@media screen and (max-width: 470px) {
+  .contact-card-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 16%;
+  }
+  
+}
 @media screen and (max-width: 580px) {
   .card-container {
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
     padding: 0% 20%;
+  }
+}
+@media screen and (min-width: 471px) and (max-width: 620px) {
+  .contact-card-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0% 24%;
   }
   
 }
@@ -81,14 +94,15 @@
     order: -1;
   }
 }
+@media screen and (min-width: 621px) and (max-width: 790px) {
+  .contact-card-container {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0% 12%;
+  }
+}
 @media screen and (min-width: 581px) and (max-width: 895px) {
   .card-container {
     grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media screen and (min-width: 721px) and (max-width: 895px) {
-  .card-container {
-    padding: 0% 12%;
   }
 }
 @media screen and (max-width: 970px) {
@@ -109,7 +123,7 @@
     gap: 10px;
   }
 }
-@media screen and (max-width: 1050px) {
+@media screen and (min-width: 791px) and (max-width: 1050px) {
   .contact-card-container {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
