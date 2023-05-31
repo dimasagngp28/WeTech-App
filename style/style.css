@@ -305,3 +305,16 @@ body {
     background-color: #82173e;
 }
 /* contact card end */
+/* footer */
+.footer {
+  margin-top: 40px;
+  display: flex;
+  padding: 16px;
+  background-color: #D0386F;
+  justify-content: center;
+  align-items: center;
+  color: #FBF2F2;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}

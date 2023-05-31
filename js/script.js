@@ -5,3 +5,6 @@ const drawer = document.querySelector('.drawer');
 document.querySelector('#hamburger').onclick = () => {
     drawer.classList.toggle('open');
 };
+document.querySelector('main').onclick = () => {
+    drawer.classList.remove('open');
+};
