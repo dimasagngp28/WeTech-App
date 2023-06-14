@@ -3,7 +3,6 @@
     grid-template-columns: repeat(1, 1fr);
     padding: 0 16%;
   }
-  
 }
 @media screen and (max-width: 580px) {
   .card-container {
@@ -17,38 +16,36 @@
     grid-template-columns: repeat(1, 1fr);
     padding: 0% 24%;
   }
-  
 }
 @media screen and (min-width: 650px) {
-    .navbar-container {
-      grid-template-columns: 1fr auto;
-      padding: 8px 16px;
-    }
-    .menu-container {
-      display: none;
-    }
-    .navbar-title {
-        padding-left: 20px;
-    }
-    .drawer {
-      position: static;
-      width: 100%;
-      overflow: hidden;
-    }
-   
-    .drawer ul li {
-      display: inline-block;
-      padding: 0px;
-    }
-   
-    .drawer ul li a {
-      display: inline-block;
-      width: 100px;
-      text-align: center;
-      margin: 0;
-      padding: 10px;
-    }
+  .navbar-container {
+    grid-template-columns: 1fr auto;
+    padding: 8px 16px;
+  }
+  .menu-container {
+    display: none;
+  }
+  .navbar-title {
+    padding-left: 20px;
+  }
+  .drawer {
+    position: static;
+    width: 100%;
+    overflow: hidden;
+  }
 
+  .drawer ul li {
+    display: inline-block;
+    padding: 0px;
+  }
+
+  .drawer ul li a {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+  }
 }
 @media screen and (max-width: 650px) {
   .card-content {

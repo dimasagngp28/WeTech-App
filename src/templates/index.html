@@ -1,165 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Free movie catalogue for you" />
+    <link rel="icon" href="./icon-wetech.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap"
+    />
+
     <title>WeTech</title>
-    <link rel="icon" href="./icon-wetech.png">
-    <link rel="stylesheet" href="../styles/belajar.css">
-    <link rel="stylesheet" href="../styles/style.css">
-    <link rel="stylesheet" href="../styles/responsive.css">
-    
-</head>
-<body>
-  <header class="navbar-container">
-    <div class="menu-container">
-      <button id="hamburger" class="hamburger_menu">☰</button>
-    </div>
-    <div class="navbar-title">
-      <h1>
-        WeTech
-      </h1>
-    </div>
-    <nav class="drawer" id="drawer">
-      <ul class="navlist">
-        <li class="nav-item"><a href="#beranda">Beranda</a></li>
-        <li class="nav-item"><a href="#kursus">Kursus</a></li>
-        <li class="nav-item"><a href="#kontak">Kontak</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <div class="main-container" id="beranda">
-      <div class="container1">
-        <h2>Waktunya Upgrade Skill dan Value Kamu!</h2>
-        <p>Semakin tinggi value kamu, semakin berkualitas
-        dirimu. Belajar setinggi mungkin, karena gender bukanlah
-        halangan.</p>
-        <div class="start-learn-container">
-          <a class="start-learn">Mulai Belajar</a>
+  </head>
+  <body>
+    <header class="navbar-container">
+      <div class="menu-container">
+        <button id="hamburger" class="hamburger_menu">☰</button>
+      </div>
+      <div class="navbar-title">
+        <h1>WeTech</h1>
+      </div>
+      <nav class="drawer" id="drawer">
+        <ul class="navlist">
+          <li class="nav-item"><a href="#beranda">Beranda</a></li>
+          <li class="nav-item"><a href="#kursus">Kursus</a></li>
+          <li class="nav-item"><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="mainContent">
+      <div class="main-container" id="beranda">
+        <div class="container1">
+          <h2>Waktunya Upgrade Skill dan Value Kamu!</h2>
+          <p>
+            Semakin tinggi value kamu, semakin berkualitas dirimu. Belajar
+            setinggi mungkin, karena gender bukanlah halangan.
+          </p>
+          <div class="start-learn-container">
+            <a class="start-learn">Mulai Belajar</a>
+          </div>
+        </div>
+        <div class="container2">
+          <img src="./image1.png" />
         </div>
       </div>
-      <div class="container2">
-        <img src="./image1.png">
+      <div class="course-container">
+        <div class="line1"></div>
+        <h3 class="course-title" id="kursus">Kursus</h3>
+        <div class="line2"></div>
       </div>
-    </div>
-    <div class="course-container">
-      <div class="line1"></div>
-      <h3 class="course-title" id="kursus">Kursus</h3>
-      <div class="line2"></div>
-    </div>
 
-    <div class="card-container">
-      <div class="card">
-        <div class="card-header">
-          <img src="./uidesign.jpg" alt="UI-Design">
-        </div>
-        <div class="card-content">
-          <h4>UI/UX Research & Design</h4>
-          <div class="rating-container">
-            <p>⭐️<span class="card-rating">4.8</span></p>
+      <div class="card-container">
+        <div class="card">
+          <div class="card-header">
+            <img src="./uidesign.jpg" alt="UI-Design" />
           </div>
-          <div class="button-container">
-            <a class="button" href="/src/scripts/views/pages/belajar.html">Belajar</a>
+          <div class="card-content">
+            <h4>UI/UX Research & Design</h4>
+            <div class="rating-container">
+              <p>⭐️<span class="card-rating">4.8</span></p>
+            </div>
+            <div class="button-container">
+              <a class="button" href="/src/scripts/views/pages/belajar.html"
+                >Belajar</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <img src="./front-end.jpg" alt="Front-End" />
+          </div>
+          <div class="card-content">
+            <h4>Front-End Web Development</h4>
+            <div class="rating-container">
+              <p>⭐️<span class="card-rating">4.9</span></p>
+            </div>
+            <div class="button-container">
+              <a class="button" href="halaman-tujuan.html">Belajar</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <img src="./presentation.jpg" alt="Soft Skill" />
+          </div>
+          <div class="card-content">
+            <h4>Soft Skill</h4>
+            <div class="rating-container">
+              <p>⭐️<span class="card-rating">4.9</span></p>
+            </div>
+            <div class="button-container">
+              <a class="button" href="halaman-tujuan.html">Belajar</a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="card">
-        <div class="card-header">
-          <img src="./front-end.jpg" alt="Front-End">
-        </div>
-        <div class="card-content">
-          <h4>Front-End Web Development</h4>
-          <div class="rating-container">
-            <p>⭐️<span class="card-rating">4.9</span></p>
-          </div>
-          <div class="button-container">
-            <a class="button" href="halaman-tujuan.html">Belajar</a>
-          </div>
-        </div>
+      <div class="course-container">
+        <div class="line1"></div>
+        <h3 class="course-title" id="kontak">Kontak</h3>
+        <div class="line2"></div>
       </div>
-      <div class="card">
-        <div class="card-header">
-          <img src="./presentation.jpg" alt="Soft Skill">
-        </div>
-        <div class="card-content">
-          <h4>Soft Skill</h4>
-          <div class="rating-container">
-            <p>⭐️<span class="card-rating">4.9</span></p>
-          </div>
-          <div class="button-container">
-            <a class="button" href="halaman-tujuan.html">Belajar</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="course-container">
-      <div class="line1"></div>
-      <h3 class="course-title" id="kontak">Kontak</h3>
-      <div class="line2"></div>
-    </div>
 
-    <div class="contact-card-container">
-      <div class="contact-card">
-        <div class="contact-header">
-          <img src="./adi.png" alt="Rosyadi-Aulawi">
+      <div class="contact-card-container">
+        <div class="contact-card">
+          <div class="contact-header">
+            <img src="./adi.png" alt="Rosyadi-Aulawi" />
+          </div>
+          <div class="contact-content">
+            <h4>Muhammad Rosyadi Aulawi</h4>
+            <p class="contact-role">Full Stack Developer</p>
+            <p class="contact-university">Universitas Mataram</p>
+            <div class="button-contact-container">
+              <a
+                class="button-contact"
+                href="https://www.linkedin.com/in/m-rosyadi-aulawi-833392222/"
+                >Kontak Saya</a
+              >
+            </div>
+          </div>
         </div>
-        <div class="contact-content">
-          <h4>Muhammad Rosyadi Aulawi</h4>
-          <p class="contact-role">Full Stack Developer</p>
-          <p class="contact-university">Universitas Mataram</p>
-          <div class="button-contact-container">
-            <a class="button-contact" href="https://www.linkedin.com/in/m-rosyadi-aulawi-833392222/">Kontak Saya</a>
+        <div class="contact-card">
+          <div class="contact-header">
+            <img src="./adhe.png" alt="Adhe-Nur-Ihsan" />
+          </div>
+          <div class="contact-content">
+            <h4>Muhammad Adhe Nur Ichsan</h4>
+            <p class="contact-role">Back-End Developer</p>
+            <p class="contact-university">Universitas Esa Unggul</p>
+            <div class="button-contact-container">
+              <a
+                class="button-contact"
+                href="https://instagram.com/adheichsn?igshid=ZGUzMzM3NWJiOQ=="
+                >Kontak Saya</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-header">
+            <img src="./fildza.png" alt="Fildza-Syahid" />
+          </div>
+          <div class="contact-content">
+            <h4>M. Fildza Syahid Muttaqien</h4>
+            <p class="contact-role">Front-End Developer</p>
+            <p class="contact-university">Universitas Gunadarma</p>
+            <div class="button-contact-container">
+              <a
+                class="button-contact"
+                href="https://www.linkedin.com/in/fildza-syahid-134292268/"
+                >Kontak Saya</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-header">
+            <img src="./dimas.png" alt="Dimas-Agung" />
+          </div>
+          <div class="contact-content">
+            <h4>Dimas Agung Prihandoko</h4>
+            <p class="contact-role">UI/UX Designer</p>
+            <p class="contact-university">Universitas Ahmad Dahlan</p>
+            <div class="button-contact-container">
+              <a
+                class="button-contact"
+                href="https://www.linkedin.com/in/dimas-agung-prihandoko/"
+                >Kontak Saya</a
+              >
+            </div>
           </div>
         </div>
       </div>
-      <div class="contact-card">
-        <div class="contact-header">
-          <img src="./adhe.png" alt="Adhe-Nur-Ihsan">
-        </div>
-        <div class="contact-content">
-          <h4>Muhammad Adhe Nur Ichsan</h4>
-          <p class="contact-role">Back-End Developer</p>
-          <p class="contact-university">Universitas Esa Unggul</p>
-          <div class="button-contact-container">
-            <a class="button-contact" href="https://instagram.com/adheichsn?igshid=ZGUzMzM3NWJiOQ==">Kontak Saya</a>
-          </div>
-        </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <h5>Copyright &copy; 2023 by Capstone Team C23-M4073</h5>
       </div>
-      <div class="contact-card">
-        <div class="contact-header">
-          <img src="./fildza.png" alt="Fildza-Syahid">
-        </div>
-        <div class="contact-content">
-          <h4>M. Fildza Syahid Muttaqien</h4>
-          <p class="contact-role">Front-End Developer</p>
-          <p class="contact-university">Universitas Gunadarma</p>
-          <div class="button-contact-container">
-            <a class="button-contact" href="https://www.linkedin.com/in/fildza-syahid-134292268/">Kontak Saya</a>
-          </div>
-        </div>
-      </div>
-      <div class="contact-card">
-        <div class="contact-header">
-          <img src="./dimas.png" alt="Dimas-Agung">
-        </div>
-        <div class="contact-content">
-          <h4>Dimas Agung Prihandoko</h4>
-          <p class="contact-role">UI/UX Designer</p>
-          <p class="contact-university">Universitas Ahmad Dahlan</p>
-          <div class="button-contact-container">
-            <a class="button-contact" href="https://www.linkedin.com/in/dimas-agung-prihandoko/">Kontak Saya</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
-  <footer></footer>
-    <div class="footer">
-      <h5>Copyright &copy; 2023 by Capstone Team C23-M4073</h5>
-    </div>
-  </footer>
-  <script src="js/script.js"></script>
-</body>
+    </footer>
+  </body>
 </html>

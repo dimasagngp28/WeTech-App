@@ -1,7 +1,7 @@
 {
-  "name": "capstone-project-dicoding",
+  "name": "capstone",
   "version": "1.0.0",
-  "description": "Repository ini dibuat untuk Capstone Project dari Dicoding x SIB Kampus Merdeka Batch 4",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start-dev": "webpack serve --config webpack.dev.js",
