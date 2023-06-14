@@ -145,7 +145,6 @@ body {
 .container2 img {
     z-index: 5;
     min-width: 70%;
-    background: url(.png);
 }
 .course-container {
     display: flex;
