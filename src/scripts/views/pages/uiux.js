@@ -129,6 +129,7 @@ const Uiux = {
   <main class="main">
     <h1>Admin Dashboard Content</h1>
   </main>
+  <script src="./belajar.js"></script>
       `;
   },
 };
