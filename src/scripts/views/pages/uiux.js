@@ -121,11 +121,6 @@ const Uiux = {
         </ul>
       </div>
     </nav>
-
-    <nav class="navbar">
-      <i class="fa-solid fa-bars" id="sidebar-close"></i>
-    </nav>
-
     <div class="isi">
       <h1>Admin Dashboard Content</h1>
     </div>

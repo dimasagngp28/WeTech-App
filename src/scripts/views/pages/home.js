@@ -146,6 +146,11 @@ const Home = {
           </div>
         </div>
       </div>
+      <footer>
+        <div class="footer">
+          <h5>Copyright &copy; 2023 by Capstone Team C23-M4073</h5>
+        </div>
+      </footer>
       `;
   },
 };

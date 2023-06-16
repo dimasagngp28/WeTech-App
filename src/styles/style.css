@@ -63,6 +63,7 @@ body {
 
 .drawer.open {
   left: 0;
+  z-index: 100;
 }
 .drawer ul {
   list-style: none;
