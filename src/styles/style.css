@@ -13,11 +13,12 @@ body {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 4px;
-  position: sticky;
+  position: fixed;
   top: 0;
-  z-index: 99;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   min-height: 50px;
+  width: 100%;
+  z-index: 4;
 }
 
 .menu-container {
@@ -140,7 +141,7 @@ body {
   border-radius: 30px;
 }
 .container2 img {
-  z-index: 5;
+  z-index: 2;
   min-width: 70%;
 }
 .course-container {
