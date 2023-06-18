@@ -57,7 +57,7 @@ const Softskill = {
   </nav>
 
   <main class="main">
-    <h1>Admin Dashboard Content</h1>
+  <div id="modul-container"></div>
   </main>
   <script src="./belajar.js"></script>
       `;

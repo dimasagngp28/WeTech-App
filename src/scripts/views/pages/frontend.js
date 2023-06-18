@@ -2,11 +2,11 @@ const FrontEnd = {
   async render() {
     return `
     <nav class="sidebar">
-    <a href="#" class="logo">WeTech</a>
+    <a href="#" class="logo">Kembali</a>
 
     <div class="menu-content">
       <ul class="menu-items">
-        <div class="menu-title">Front-End Web</div>
+        <div class="menu-title1">Daftar Modul</div>
 
         <li class="item">
           <div class="submenu-item">
@@ -39,16 +39,10 @@ const FrontEnd = {
               Dasar-Dasar JavaScript
             </div>
             <li class="item">
-              <a href="#">Second sublink</a>
+              <a href="#">Apa itu Javascript</a>
             </li>
             <li class="item">
-              <a href="#">Second sublink</a>
-            </li>
-            <li class="item">
-              <a href="#">Second sublink</a>
-            </li>
-            <li class="item">
-              <a href="#">Second sublink</a>
+              <a href="#">Sejarah Javascript</a>
             </li>
           </ul>
         </li>
@@ -61,7 +55,7 @@ const FrontEnd = {
   </nav>
 
   <main class="main">
-  <div id="uiux-container"></div>
+  <div id="modul-container"></div>
   </main>
       `;
   },
