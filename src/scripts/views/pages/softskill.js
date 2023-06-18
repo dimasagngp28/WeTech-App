@@ -2,57 +2,53 @@ const Softskill = {
   async render() {
     return `
     <nav class="sidebar">
-    <a href="#" class="logo">WeTech</a>
+    <a href="#" class="logo">Kembali</a>
 
     <div class="menu-content">
       <ul class="menu-items">
-        <div class="menu-title">UI/UX Design</div>
+        <div class="menu-title1">Daftar Modul</div>
 
         <li class="item">
           <div class="submenu-item">
-            <span>Pengenalan UI/UX</span>
+            <span>Public Speaking</span>
             <i class="fa-solid fa-chevron-right"></i>
           </div>
 
           <ul class="menu-items submenu">
             <div class="menu-title">
               <i class="fa-solid fa-chevron-left"></i>
-              Pengenalan UI/UX
+              Kembali
             </div>
             <li class="item">
-              <a href="#">Apa itu UI/UX</a>
+              <a href="#">Apa itu Public Speaking?</a>
             </li>
             <li class="item">
-              <a href="#">Perbedaan UI dan UX</a>
+              <a href="#">Pentingnya Belajar Public Speaking</a>
             </li>
           </ul>
         </li>
         <li class="item">
           <div class="submenu-item">
-            <span>Dasar-Dasar UI/UX</span>
+            <span>Time Management</span>
             <i class="fa-solid fa-chevron-right"></i>
           </div>
 
           <ul class="menu-items submenu">
             <div class="menu-title">
               <i class="fa-solid fa-chevron-left"></i>
-              Dasar-Dasar UI/UX
+              Kembali
             </div>
             <li class="item">
-              <a href="#">Second sublink</a>
+              <a href="#">Apa itu Time Management ?</a>
             </li>
             <li class="item">
-              <a href="#">Second sublink</a>
+              <a href="#">Pentingnya Time Management</a>
             </li>
             <li class="item">
-              <a href="#">Second sublink</a>
-            </li>
-            <li class="item">
-              <a href="#">Second sublink</a>
+              <a href="#">Bagaimana Cara Manage Waktu yang Baik ?</a>
             </li>
           </ul>
         </li>
-      </ul>
     </div>
   </nav>
 
@@ -61,8 +57,9 @@ const Softskill = {
   </nav>
 
   <main class="main">
-  <div id="uiux-container"></div>
+    <h1>Admin Dashboard Content</h1>
   </main>
+  <script src="./belajar.js"></script>
       `;
   },
 };

@@ -4,6 +4,11 @@
   padding: 0;
   margin: 0;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Inter", sans-serif;
 }
@@ -46,6 +51,12 @@ body {
   color: #fbf2f2;
   font-size: 30px;
   user-select: none;
+  transition: 0.2 opacity;
+}
+
+.navbar-title h1:hover{
+  opacity: 0.8;
+  font-weight: bold;
 }
 
 .drawer {
@@ -114,7 +125,7 @@ body {
 .start-learn {
   display: flex;
   width: 180px;
-  height: 40px;
+  height: 44px;
   background: #d0386f;
   border-radius: 10px;
   font-family: "Inter", sans-serif;
@@ -126,6 +137,7 @@ body {
   padding: 0.1rem 1rem;
   margin-block-start: 1rem;
   cursor: pointer;
+  text-decoration: none;
 }
 .start-learn:hover {
   background-color: #82173e;
@@ -190,6 +202,10 @@ body {
   height: 200px;
   object-fit: cover;
   border-radius: 16px 16px 0 0;
+  transition: transform 0.2s ease;
+}
+.card-header img:hover{
+  transform: scale(1.1);
 }
 .card-content {
   padding: 20px;
@@ -248,6 +264,10 @@ body {
   margin-bottom: 20px;
   border-radius: 16px;
   border: 2px solid #d0386f;
+  transition: transform 0.3s ease;
+}
+.contact-card:hover{
+  transform: scale(1.1);
 }
 .contact-header {
   display: flex;

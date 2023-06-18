@@ -9,7 +9,7 @@ const Home = {
             setinggi mungkin, karena gender bukanlah halangan.
           </p>
           <div class="start-learn-container">
-            <a class="start-learn">Mulai Belajar</a>
+            <a href="#kursus" class="start-learn">Mulai Belajar</a>
           </div>
         </div>
         <div class="container2">
