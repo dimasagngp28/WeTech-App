@@ -2,48 +2,41 @@ const Uiux = {
   async render() {
     return `
     <nav class="sidebar">
-    <a href="#" class="logo">CodingLab</a>
+    <a href="#" class="logo">WeTech</a>
 
     <div class="menu-content">
       <ul class="menu-items">
-        <div class="menu-title">Your menu title</div>
-
-        <li class="item">
-          <a href="#">Your first link</a>
-        </li>
+        <div class="menu-title">UI/UX Design</div>
 
         <li class="item">
           <div class="submenu-item">
-            <span>First submenu</span>
+            <span>Pengenalan UI/UX</span>
             <i class="fa-solid fa-chevron-right"></i>
           </div>
 
           <ul class="menu-items submenu">
             <div class="menu-title">
               <i class="fa-solid fa-chevron-left"></i>
-              Your submenu title
+              Pengenalan UI/UX
             </div>
             <li class="item">
-              <a href="#">First sublink</a>
+              <a href="#">Apa itu UI/UX</a>
             </li>
             <li class="item">
-              <a href="#">First sublink</a>
-            </li>
-            <li class="item">
-              <a href="#">First sublink</a>
+              <a href="#">Perbedaan UI dan UX</a>
             </li>
           </ul>
         </li>
         <li class="item">
           <div class="submenu-item">
-            <span>Second submenu</span>
+            <span>Dasar-Dasar UI/UX</span>
             <i class="fa-solid fa-chevron-right"></i>
           </div>
 
           <ul class="menu-items submenu">
             <div class="menu-title">
               <i class="fa-solid fa-chevron-left"></i>
-              Your submenu title
+              Dasar-Dasar UI/UX
             </div>
             <li class="item">
               <a href="#">Second sublink</a>
@@ -57,66 +50,7 @@ const Uiux = {
             <li class="item">
               <a href="#">Second sublink</a>
             </li>
-            <li class="item">
-              <a href="#">Second sublink</a>
-            </li>
-            <li class="item">
-              <a href="#">Second sublink</a>
-            </li>
-            <li class="item">
-              <a href="#">Second sublink</a>
-            </li>
-            <li class="item">
-              <a href="#">Second sublink</a>
-            </li>
-            <li class="item">
-              <a href="#">Second sublink</a>
-            </li>
-            <li class="item">
-              <a href="#">Second sublink</a>
-            </li>
-            <li class="item">
-              <a href="#">Second sublink</a>
-            </li>
-            <li class="item">
-              <a href="#">Second sublink</a>
-            </li>
-            <li class="item">
-              <a href="#">Second sublink</a>
-            </li>
-            <li class="item">
-              <a href="#">Second sublink</a>
-            </li>
-            <li class="item">
-              <a href="#">Second sublink</a>
-            </li>
-            <li class="item">
-              <a href="#">Second sublink</a>
-            </li>
-            <li class="item">
-              <a href="#">Second sublink</a>
-            </li>
-            <li class="item">
-              <a href="#">Second sublink</a>
-            </li>
-            <li class="item">
-              <a href="#">Second sublink</a>
-            </li>
-            <li class="item">
-              <a href="#">Second sublink</a>
-            </li>
-            <li class="item">
-              <a href="#">Second sublink</a>
-            </li>
           </ul>
-        </li>
-
-        <li class="item">
-          <a href="#">Your second link</a>
-        </li>
-
-        <li class="item">
-          <a href="#">Your third link</a>
         </li>
       </ul>
     </div>
@@ -127,9 +61,8 @@ const Uiux = {
   </nav>
 
   <main class="main">
-    <h1>Admin Dashboard Content</h1>
+  <div id="uiux-container"></div>
   </main>
-  <script src="./belajar.js"></script>
       `;
   },
 };

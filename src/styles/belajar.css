@@ -39,7 +39,7 @@
   transition: all 0.2s ease;
 }
 .submenu-active .menu-items {
-  transform: translateX(-56%);
+  transform: translateX(-55.7%);
 }
 .menu-title {
   color: #fff;
@@ -105,7 +105,7 @@
   color: #fff;
   padding: 15px 20px;
   font-size: 25px;
-  background: #4070f4;
+  background: #d0386f;
   cursor: pointer;
 }
 .navbar #sidebar-close {
