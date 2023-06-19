@@ -30,7 +30,7 @@ const FrontEnd = {
   </nav>
 
   <main class="main">
-    <div id="pengertianUIUX">
+    <div class="modul" id="modul1">
       <h2>Pengertian HTML</h2>
       <p>
       HTML adalah singkatan dari Hypertext Mark Up Language yang merupakan bahasa standar pemrograman untuk membuat suatu website yang bisa diakses dengan internet. Dengan kata lain halaman website yang kita lihat dan kita baca disusun dengan menggunakan bahasa ini dan kemudian diterjemahkan oleh komputer agar dapat dipahami oleh penggunanya.
@@ -41,7 +41,7 @@ const FrontEnd = {
       </p>
     </div>
 
-    <div id="perbedaanUIUX">
+    <div class="modul" id="modul2">
       <h2>Pengertian CSS</h2>
       <p>
       UX Design adalah proses menciptakan produk yang memberikan pengalaman bermakna dan relevan bagi pengguna. Menurut Dor Norman UX (User Experience) mencakup semua aspek interaksi pengguna akhir dengan perusahaan, layanannya, dan produknya. UX Design juga melibatkan desain dari seluruh proses memperoleh dan mengintegrasikan produk, termasuk aspek branding, desain, kegunaan, dan fungsi.
@@ -52,7 +52,7 @@ const FrontEnd = {
       </p>
     </div>
 
-    <div id="perbedaanUIUX">
+    <div class="modul" id="modul3">
     <h2>Apa itu Javascript</h2>
     <p>
     JavaScript adalah bahasa pemrograman yang digunakan untuk mengembangkan fitur interaktif pada halaman web. Dengan JavaScript, Anda dapat mengontrol elemen HTML, memanipulasi tampilan, merespons tindakan pengguna, dan berkomunikasi dengan server. Hal ini memungkinkan pembuatan halaman web yang dinamis dan interaktif, meningkatkan pengalaman pengguna dan fungsionalitas situs.s
@@ -63,7 +63,7 @@ const FrontEnd = {
     </p>
   </div>
 
-  <div id="perbedaanUIUX">
+  <div class="modul" id="modul4">
   <h2>Sejarah Javascript</h2>
   <p>
   JavaScript dibuat pada tahun 1995 oleh Brendan Eich ketika ia bekerja di Netscape Communications Corporation. Awalnya dikenal sebagai "Mocha" dan kemudian diubah namanya menjadi "LiveScript" sebelum akhirnya menjadi JavaScript. JavaScript dirancang sebagai bahasa scripting untuk memberikan interaktivitas pada halaman web. Dalam beberapa tahun, JavaScript mendapatkan popularitas yang besar dan menjadi bahasa pemrograman yang paling penting dalam pengembangan web. Standarisasi JavaScript dilakukan oleh European Computer Manufacturers Association (ECMA), yang menghasilkan spesifikasi standar ECMAScript. ECMAScript terus mengalami perkembangan dan pembaruan, dengan versi terbaru seperti ECMAScript 6 (ES6) memperkenalkan fitur-fitur baru yang memperluas kemampuan bahasa JavaScript. Saat ini, JavaScript digunakan secara luas dalam pengembangan web modern, dari pembuatan efek interaktif sederhana hingga pengembangan aplikasi web yang kompleks dan responsif.

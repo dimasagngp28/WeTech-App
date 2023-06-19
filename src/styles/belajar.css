@@ -14,6 +14,11 @@
   padding: 15px;
   z-index: 20;
 }
+.sidebar.close ~ .navbar,
+.sidebar.close ~ .main {
+  left: 0;
+  width: 100%;
+}
 .logo {
   font-size: 25px;
   padding: 0 15px;
@@ -101,11 +106,7 @@
   transition: all 0.5s ease;
   z-index: 1000;
 }
-.sidebar.close ~ .navbar,
-.sidebar.close ~ .main {
-  left: 0;
-  width: 100%;
-}
+
 .navbar {
   position: fixed;
   color: #fff;
@@ -120,6 +121,13 @@
   margin-left: 100px;
 }
 .navbar #sidebar-close {
+  background-color: transparent;
+  color: #ffecec;
+  border: none;
+  font-size: 18px;
+  padding: 8px;
+  min-width: 44px;
+  min-height: 44px;
   cursor: pointer;
 }
 .main {

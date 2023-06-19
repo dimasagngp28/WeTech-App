@@ -1,14 +1,26 @@
+@media screen and (max-width: 399px) {
+  .button-container {
+    padding: 4px;
+  }
+  .button {
+    width: 40%;
+    font-size: 12px;
+  }
+}
 @media screen and (max-width: 470px) {
   .contact-card-container {
     grid-template-columns: repeat(1, 1fr);
     padding: 0 16%;
   }
 }
+@media screen and (min-width: 400px) and (max-width: 580px) {
+  .card-container {
+    padding: 0 20%;
+  }
+}
 @media screen and (max-width: 580px) {
   .card-container {
     grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
-    padding: 0% 20%;
   }
 }
 @media screen and (min-width: 471px) and (max-width: 620px) {
@@ -47,6 +59,15 @@
     padding: 10px;
   }
 }
+@media screen and (min-width: 400px) and (max-width: 650px) {
+  .button-container {
+    padding: 8px;
+  }
+  .button {
+    width: 45%;
+    font-size: 15px;
+  }
+}
 @media screen and (max-width: 650px) {
   .card-content {
     padding: 12px;
@@ -55,13 +76,6 @@
     font-size: 15px;
   }
   .card-rating {
-    font-size: 15px;
-  }
-  .button-container {
-    padding: 8px;
-  }
-  .button {
-    width: 35%;
     font-size: 15px;
   }
 }
