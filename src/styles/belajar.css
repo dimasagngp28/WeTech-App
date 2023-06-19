@@ -128,7 +128,6 @@
   display: block;
   align-items: center;
   justify-content: center;
-  height: 100vh;
   z-index: 100;
   background: #e7f2fd;
   flex-direction: column;
