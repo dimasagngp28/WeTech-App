@@ -64,7 +64,6 @@
   font-size: 12px;
 }
 .item a:hover,
-.submenu-item:hover,
 .submenu .menu-title:hover {
   background: rgba(255, 255, 255, 0.1);
 }
@@ -129,7 +128,7 @@
   align-items: center;
   justify-content: center;
   z-index: 100;
-  background: #e7f2fd;
+  background: #fff;
   flex-direction: column;
   padding-top: 80px;
   min-height: 100vh;
