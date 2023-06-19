@@ -20,7 +20,7 @@ const Uiux = {
               Kembali
             </div>
             <li class="item">
-              <a href="#">Apa itu UI/UX ?</a>
+              <a href="#pengertianUIUX">Apa itu UI/UX ?</a>
             </li>
             <li class="item">
               <a href="#">Perbedaan UI dan UX</a>
