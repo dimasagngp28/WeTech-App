@@ -20,7 +20,7 @@
   width: 100%;
 }
 .logo {
-  font-size: 25px;
+  font-size: 20px;
   padding: 0 15px;
   color: white;
 }
@@ -49,7 +49,7 @@
 }
 .menu-title1 {
   color: #fff;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: bold;
   padding: 15px 20px;
 }
@@ -60,7 +60,7 @@
 }
 .item a,
 .submenu-item {
-  padding: 16px;
+  padding: 12px;
   display: inline-block;
   width: 100%;
   border-radius: 12px;
@@ -95,9 +95,6 @@
 .submenu .menu-title {
   border-radius: 12px;
   cursor: pointer;
-}
-.submenu .menu-title i {
-  margin-right: 10px;
 }
 .navbar,
 .main {

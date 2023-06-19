@@ -2,7 +2,7 @@ const Uiux = {
   async render() {
     return `
     <nav class="sidebar">
-    <a href="#" class="logo">Kembali</a>
+    <a href="#" class="logo">Beranda</a>
 
     <div class="menu-content">
       <ul class="menu-items">
@@ -35,7 +35,7 @@ const Uiux = {
   </nav>
 
   <main class="main" id="main">
-    <div id="modul1">
+    <div class="modul" id="modul1">
       <h2>Apa itu UI/UX</h2>
       <p>UI (User Interface) adalah sebuah proses desain yang digunakan untuk membangun tampilan antarmuka di layar aplikasi atau komputer yang berfokus pada penampilan atau gaya. UI Designer bertujuan untuk membuat antarmuka yang menurut pengguna mudah digunakan dan menyenangkan. Desain UI mengacu pada grafis antarmuka pengguna dan bentuk lainnya.</p>
       <p>
@@ -43,7 +43,7 @@ const Uiux = {
       </p>
     </div>
 
-    <div id="modul2">
+    <div class="modul" id="modul2">
       <h2>Perbedaan UI dan UX</h2>
       <p>UX Design adalah proses menciptakan produk yang memberikan pengalaman bermakna dan relevan bagi pengguna. Menurut Dor Norman UX (User Experience) mencakup semua aspek interaksi pengguna akhir dengan perusahaan, layanannya, dan produknya. UX Design juga melibatkan desain dari seluruh proses memperoleh dan mengintegrasikan produk, termasuk aspek branding, desain, kegunaan, dan fungsi.</p>
       <p>

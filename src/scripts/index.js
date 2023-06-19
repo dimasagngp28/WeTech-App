@@ -4,6 +4,7 @@ import '../styles/responsive.css';
 import '../styles/belajar.css';
 import '../styles/responsive-modul.css';
 import App from './views/app';
+import swRegister from './utils/sw-register';
 
 const app = new App({
   button: document.querySelector('#hamburger', '#sidebar-close'),
@@ -16,4 +17,5 @@ window.addEventListener('hashchange', () => {
 
 window.addEventListener('load', () => {
   app.renderPage();
+  swRegister();
 });

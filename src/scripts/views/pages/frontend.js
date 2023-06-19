@@ -2,7 +2,7 @@ const FrontEnd = {
   async render() {
     return `
     <nav class="sidebar">
-    <a href="#" class="logo">Kembali</a>
+    <a href="#" class="logo">Beranda</a>
 
     <div class="menu-content">
       <ul class="menu-items">

@@ -8,3 +8,8 @@
         width: calc(100% - 200px);
 }
 }
+@media screen and (max-width: 500px) {
+    .modul {
+        font-size: 12px;
+    }
+}
