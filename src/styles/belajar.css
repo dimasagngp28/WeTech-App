@@ -114,6 +114,7 @@
   font-size: 25px;
   background: #d0386f;
   cursor: pointer;
+
 }
 
 .content-1 .content_heading {
@@ -130,9 +131,22 @@
   height: 100vh;
   z-index: 100;
   background: #e7f2fd;
+  flex-direction: column;
 }
 .main h1 {
   color: #11101d;
-  font-size: 40px;
+  font-size: 100px;
   text-align: center;
+}
+
+.main div {
+  padding: 0 4%;
+}
+
+.main h2 {
+  text-align: center;
+}
+
+.main p{
+  text-align: justify;
 }
