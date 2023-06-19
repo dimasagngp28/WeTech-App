@@ -105,7 +105,7 @@ const Home = {
             <div class="button-contact-container">
               <a
                 class="button-contact"
-                href="https://instagram.com/adheichsn?igshid=ZGUzMzM3NWJiOQ=="
+                href="https://www.linkedin.com/in/muhammad-adhe-nur-ichsan-52a85427a/"
                 >Kontak Saya</a
               >
             </div>
