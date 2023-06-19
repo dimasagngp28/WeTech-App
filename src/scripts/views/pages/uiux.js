@@ -6,31 +6,18 @@ const Uiux = {
 
     <div class="menu-content">
       <ul class="menu-items">
-        <div class="menu-title1">Daftar Modul</div>
+        <div class="menu-title1">Daftar Kursus</div>
 
         <li class="item">
           <div class="submenu-item">
-            <span>Pengenalan UI/UX</span>
-            <i class="fa-solid fa-chevron-right"></i>
+            <a href="#/frontend">Front-End Web Development</a>
+            <i class="fa-solid fa-chevron"></i>
           </div>
-
-          <ul class="menu-items submenu">
-            <div class="menu-title">
-              <i class="fa-solid fa-chevron-left"></i>
-              Kembali
-            </div>
-            <li class="item">
-              <a href="#pengertianUIUX">Apa itu UI/UX ?</a>
-            </li>
-            <li class="item">
-              <a href="#">Perbedaan UI dan UX</a>
-            </li>
-          </ul>
         </li>
         <li class="item">
           <div class="submenu-item">
-            <span>Dasar UI/UX</span>
-            <i class="fa-solid fa-chevron-right"></i>
+            <a href="#/softskill">Soft Skill</a>
+            <i class="fa-solid fa-chevron"></i>
           </div>
 
           <ul class="menu-items submenu">
@@ -38,12 +25,6 @@ const Uiux = {
               <i class="fa-solid fa-chevron-left"></i>
               Kembali
             </div>
-            <li class="item">
-              <a href="#">Sejarah UI dan UX</a>
-            </li>
-            <li class="item">
-              <a href="#">Peran UI dan UX</a>
-            </li>
           </ul>
         </li>
     </div>

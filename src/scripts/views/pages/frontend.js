@@ -6,45 +6,20 @@ const FrontEnd = {
 
     <div class="menu-content">
       <ul class="menu-items">
-        <div class="menu-title1">Daftar Modul</div>
+        <div class="menu-title1">Daftar Kursus</div>
 
         <li class="item">
           <div class="submenu-item">
-            <span>Dasar Front-End Web</span>
-            <i class="fa-solid fa-chevron-right"></i>
+            <a href="#/uiux">UI/UX Design & Research</a>
+            <i class="fa-solid fa-chevron"></i>
           </div>
 
-          <ul class="menu-items submenu">
-            <div class="menu-title">
-              <i class="fa-solid fa-chevron-left"></i>
-              Dasar Front-End Web
-            </div>
-            <li class="item">
-              <a href="#">Pengertian HTML</a>
-            </li>
-            <li class="item">
-              <a href="#">Pengertian CSS</a>
-            </li>
-          </ul>
         </li>
         <li class="item">
           <div class="submenu-item">
-            <span>Dasar-Dasar JavaScript</span>
-            <i class="fa-solid fa-chevron-right"></i>
+            <a href="#/softskill">Soft Skill</a>
+            <i class="fa-solid fa-chevron"></i>
           </div>
-
-          <ul class="menu-items submenu">
-            <div class="menu-title">
-              <i class="fa-solid fa-chevron-left"></i>
-              Dasar-Dasar JavaScript
-            </div>
-            <li class="item">
-              <a href="#">Apa itu Javascript</a>
-            </li>
-            <li class="item">
-              <a href="#">Sejarah Javascript</a>
-            </li>
-          </ul>
         </li>
       </ul>
     </div>

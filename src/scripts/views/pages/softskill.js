@@ -6,48 +6,19 @@ const Softskill = {
 
     <div class="menu-content">
       <ul class="menu-items">
-        <div class="menu-title1">Daftar Modul</div>
+        <div class="menu-title1">Daftar Kursus</div>
 
         <li class="item">
           <div class="submenu-item">
-            <span>Public Speaking</span>
-            <i class="fa-solid fa-chevron-right"></i>
+            <a href="#/uiux">UI/UX Design & Research</a>
+            <i class="fa-solid fa-chevron"></i>
           </div>
-
-          <ul class="menu-items submenu">
-            <div class="menu-title">
-              <i class="fa-solid fa-chevron-left"></i>
-              Kembali
-            </div>
-            <li class="item">
-              <a href="#">Apa itu Public Speaking?</a>
-            </li>
-            <li class="item">
-              <a href="#">Pentingnya Belajar Public Speaking</a>
-            </li>
-          </ul>
         </li>
         <li class="item">
           <div class="submenu-item">
-            <span>Time Management</span>
-            <i class="fa-solid fa-chevron-right"></i>
+            <a href="#/frontend">Front-End Web</a>
+            <i class="fa-solid fa-chevron"></i>
           </div>
-
-          <ul class="menu-items submenu">
-            <div class="menu-title">
-              <i class="fa-solid fa-chevron-left"></i>
-              Kembali
-            </div>
-            <li class="item">
-              <a href="#">Apa itu Time Management ?</a>
-            </li>
-            <li class="item">
-              <a href="#">Pentingnya Time Management</a>
-            </li>
-            <li class="item">
-              <a href="#">Bagaimana Cara Manage Waktu yang Baik ?</a>
-            </li>
-          </ul>
         </li>
     </div>
   </nav>

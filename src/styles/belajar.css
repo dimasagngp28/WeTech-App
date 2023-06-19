@@ -39,9 +39,6 @@
   list-style: none;
   transition: all 0.2s ease;
 }
-.submenu-active .menu-items {
-  transform: translateX(-55.7%);
-}
 .menu-title1 {
   color: #fff;
   font-size: 23px;
@@ -53,9 +50,8 @@
   font-size: 18px;
   padding: 15px 20px;
 }
-.item a,
-.submenu-item {
-  padding: 16px;
+.item a {
+  padding: 12px;
   display: inline-block;
   width: 100%;
   border-radius: 12px;
@@ -64,7 +60,6 @@
   font-size: 12px;
 }
 .item a:hover,
-.submenu-item:hover,
 .submenu .menu-title:hover {
   background: rgba(255, 255, 255, 0.1);
 }
@@ -130,7 +125,7 @@
   justify-content: center;
   height: 100vh;
   z-index: 100;
-  background: #e7f2fd;
+  background: #ffff;
   flex-direction: column;
   padding-top: 80px;
 }
